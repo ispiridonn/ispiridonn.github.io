@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ionela</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Spiridon Ionela</h1>
+      <img height="100" src="images/20230923_173753.jpg" alt="selfie" />
+      <p id="job-title">Spre cunoastere</p>
+
+      <ul id="top-menu-bar">
+        <li><a href="#" class="active">HOME</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="#">Languages</a></li>
+      </ul>
+    </header>
+    <section id="content">
+      <div id="side-menu">
+        <section id="side-menu section">
+          <form action="secretara.html">
+            <h2 style="color: blue">Contact</h2>
+            <div>
+              <label for="userEmail">Email</label>
+              <input
+                type="text"
+                name="email"
+                id="userEmail"
+                placeholder=" Your email"
+              />
+            </div>
+            <div>
+              <label for="userName">Your name</label>
+              <input
+                type="text"
+                name="name"
+                id="userName"
+                placeholder="Enter your name"
+              />
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </section>
+        <section id="side-menu section">M2</section>
+      </div>
+      <div id="main">
+        <h2 style="color: aqua">Skills</h2>
+        <ul>
+          <li class="favorite">HTML</li>
+          <li>CSS</li>
+          <li class="favorite">JS</li>
+        </ul>
+
+        <h2 style="color: brown">Know Languages</h2>
+        <table border="3">
+          <tr>
+            <th>Languages</th>
+            <th>Level</th>
+          </tr>
+          <tr>
+            <td class="favorite">Romanian</td>
+            <td>Native</td>
+          </tr>
+          <tr>
+            <td>English</td>
+            <td>Profesional</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <footer>
+      Open my
+      <a
+        href="https://ro.wikipedia.org/wiki/Pisic%C4%83_de_cas%C4%83"
+        ;
+        target="_blank"
+        >Wikipedia</a
+      >
+      account.
+    </footer>
+
+    <script>
+      console.info(2 + 3);
+      console.warn(" Spiridon Ionela");
+
+      var employed = true;
+      var age = 23;
+      console.log("Angajat:", employed);
+      employed = false;
+      console.log("Angajat:", employed);
+      employed = "da";
+      console.log("Angajat:", employed);
+
+      var Skills = ["html", "css"];
+      console.debug("tipul variabilei skills", typeof Skills);
+
+      var job = document.getElementById("job-title");
+      console.warn("job", job);
+      console.info(typeof job);
+    </script>
+  </body>
+</html>
