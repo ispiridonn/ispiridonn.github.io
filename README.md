@@ -1,2 +1,5 @@
 # ispiridonn.github.io
-my personal CV
+
+## live
+
+[ispiridonn.github.io](https://github.com/ispiridonn/ispiridonn.github.io)
