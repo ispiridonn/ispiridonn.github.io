@@ -12,10 +12,14 @@ function variablesExamples() {
 
   var Skills = ["html", "css"];
   console.debug("tipul variabilei skills", typeof Skills);
+}
 
+function updateTitle() {
   var job = document.getElementById("job-title");
   console.warn("job", job);
   console.info(typeof job);
+  job.innerHTML = "Web Developer @ beginner ";
 }
 
 variablesExamples();
+updateTitle();
