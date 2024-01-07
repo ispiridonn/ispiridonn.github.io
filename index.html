@@ -20,9 +20,9 @@
       </div>
 
       <ul id="top-menu-bar">
-        <li><a href="#" class="active">HOME</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Project</a></li>
+        <li><a href="#" class="active" onclick="showHOME()">HOME</a></li>
+        <li><a href="#" onclick="showSkills()">Skills</a></li>
+        <li><a href="#" onclick="showprojects()">Project</a></li>
         <li><a href="#" onclick="showLanguages()">Languages</a></li>
       </ul>
     </header>
@@ -55,11 +55,11 @@
         <section id="side-menu section">M2</section>
       </div>
       <div id="main">
-        <div style="display: none">
+        <div style="display: none" id="HOME">
           <h2>Home</h2>
           <p>Welcom...</p>
         </div>
-        <div style="display: none">
+        <div style="display: none" id="Skills">
           <h2 style="color: aqua">Skills</h2>
           <ul>
             <li class="favorite">HTML</li>
@@ -67,7 +67,7 @@
             <li class="favorite">JS</li>
           </ul>
         </div>
-        <div id="projects">
+        <div style="display: none" id="projects">
           <h2>Projects</h2>
           <p>....</p>
         </div>
