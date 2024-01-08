@@ -16,19 +16,3 @@ function showPage(id) {
   show(id);
   activePage = id;
 }
-
-function showLanguages() {
-  showPage("languages");
-}
-
-function showHOME() {
-  showPage("HOME");
-}
-
-function showSkills() {
-  showPage("Skills");
-}
-
-function showprojects() {
-  showPage("projects");
-}
