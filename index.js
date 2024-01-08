@@ -1,15 +1,17 @@
+//variabile publice
+var activePage = "Skills";
+
+// functii publice
+function hide(id) {
+  console.info("hide", id);
+  document.getElementById(id).style.display = "none";
+}
+
 function show(id) {
   console.info("show", id);
   var page = document.getElementById(id);
   console.info("page", page);
   page.style.display = "block";
-}
-
-var activePage = "projects";
-
-function hide(id) {
-  console.info("hide", id);
-  document.getElementById(id).style.display = "none";
 }
 
 function showPage(id) {
@@ -18,3 +20,6 @@ function showPage(id) {
   show(id);
   activePage = id;
 }
+
+//executii
+showPage(activePage);
