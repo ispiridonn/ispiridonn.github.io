@@ -10,26 +10,25 @@ function hide(id) {
   console.info("hide", id);
   document.getElementById(id).style.display = "none";
 }
+function showPage(id) {
+  console.info("show page", id);
+  hide(activePage);
+  show(id);
+  activePage = id;
+}
 
 function showLanguages() {
-  hide(activePage);
-  show("languages");
-  activePage = "languages";
+  showPage("languages");
 }
 
 function showHOME() {
-  hide(activePage);
-  show("HOME");
-  activePage = "HOME";
+  showPage("HOME");
 }
 
 function showSkills() {
-  hide(activePage);
-  show("Skills");
-  activePage = "Skills";
+  showPage("Skills");
 }
+
 function showprojects() {
-  hide(activePage);
-  show("projects");
-  activePage = "projects";
+  showPage("projects");
 }
