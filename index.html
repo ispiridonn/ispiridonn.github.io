@@ -20,8 +20,10 @@
       </div>
 
       <ul id="top-menu-bar">
-        <li><a href="#" class="active" onclick="showPage('HOME')">HOME</a></li>
-        <li><a href="#" onclick="showPage('Skills')">Skills</a></li>
+        <li><a href="#" onclick="showPage('HOME')">HOME</a></li>
+        <li>
+          <a href="#" class="active" onclick="showPage('Skills')">Skills</a>
+        </li>
         <li><a href="#" onclick="showPage('projects')">Project</a></li>
         <li><a href="#" onclick="showPage('languages')">Languages</a></li>
       </ul>
@@ -55,11 +57,11 @@
         <section id="side-menu section">M2</section>
       </div>
       <div id="main">
-        <div style="display: none" id="HOME" class="page">
+        <div id="HOME" class="page">
           <h2>Home</h2>
           <p>Welcome...</p>
         </div>
-        <div style="display: none" id="Skills" class="page">
+        <div id="Skills" class="page" style="display: block">
           <h2 style="color: aqua">Skills</h2>
           <ul>
             <li class="favorite">HTML</li>
@@ -67,12 +69,12 @@
             <li class="favorite">JS</li>
           </ul>
         </div>
-        <div style="display: none" id="projects" class="page">
+        <div id="projects" class="page">
           <h2>Projects</h2>
           <p>....</p>
         </div>
 
-        <div style="display: none" id="languages" class="page">
+        <div id="languages" class="page">
           <h2>Know Languages</h2>
           <table border="3">
             <tr>

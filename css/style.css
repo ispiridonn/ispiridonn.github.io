@@ -20,7 +20,9 @@ body {
 #main {
   flex: 3;
 }
+
 .page {
+  display: none;
   background-color: chocolate;
   padding: 10px;
   margin: 10px;
