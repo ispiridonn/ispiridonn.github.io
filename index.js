@@ -5,17 +5,18 @@ var activePage = "skills";
 
 function $(selector) {
   var el = document.querySelector(selector);
+  //console.info(selector, el);
   return el;
 }
 
 function hide(id) {
   console.info("hide", id);
-  document.getElementById(id).style.display = "none";
+  $("#" + id).style.display = "none";
 }
 
 function show(id) {
   console.info("show", id);
-  var page = document.getElementById(id);
+  var page = $(`${id}`);
   console.info("page", page);
   page.style.display = "block";
 }
