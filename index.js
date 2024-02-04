@@ -44,14 +44,11 @@ function initEvents() {
     }
   });
 }
-function showSkills() {
+function showSkills(Skills) {
+  console.info("skills:", skills);
   var ul = $("#skills ul");
 
-  var skills = [
-    { name: "HTML", endorcements: 6, favorite: true },
-    { name: "CSS", endorcements: 5, favorite: false },
-    { name: "JS", endorcements: 4, favorite: true },
-  ];
+  var skills = [];
 
   var text = skills.map(function (skill) {
     var cls = "";
